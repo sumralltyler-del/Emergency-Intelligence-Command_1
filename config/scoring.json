@@ -1,0 +1,13 @@
+{
+  "maximumScore": 100,
+  "components": {
+    "weather": { "maximum": 15, "stormCodeMinimum": 80, "stormBonus": 3, "precipitationFactor": 0.12 },
+    "nwsAlerts": { "maximum": 25, "severity": { "Extreme": 25, "Severe": 20, "Moderate": 10, "Minor": 4, "Unknown": 3 } },
+    "wildfire": { "maximum": 25, "within10Miles": 25, "within25Miles": 16, "within50Miles": 7 },
+    "wind": { "maximum": 20, "at15Mph": 4, "at25Mph": 9, "at35Mph": 15, "above50Mph": 20 },
+    "earthquake": { "maximum": 10, "magnitude2_5Within25": 2, "magnitude4Within50": 5, "magnitude5Within100": 10 },
+    "powerOutage": { "maximum": 20, "minorPoints": 4, "moderatePoints": 10, "majorPoints": 20, "moderatePercent": 5, "majorPercent": 20, "moderateCustomers": 1000, "majorCustomers": 10000 },
+    "facilityExposure": { "maximum": 5, "pointsPerElevatedFacility": 2 }
+  },
+  "levels": { "lowMaximum": 19, "monitoringMaximum": 39, "elevatedMaximum": 69 }
+}
